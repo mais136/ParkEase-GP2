@@ -1,0 +1,39 @@
+name: parkease
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.6.1 # Use the latest version that suits your needs
+  geolocator: ^12.0.0 # Check for the latest version
+  url_launcher: ^6.2.6 # Check for the latest version on pub.dev
+  flutter_secure_storage: ^9.2.2
+  provider: ^6.1.2 # Check for the latest version
+  device_info_plus: ^10.1.0
+  socket_io_client: ^2.0.0
+  qr_flutter: ^4.1.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1 # Adding flutter_launcher_icons package
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png" # Path to your logo image
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png # Ensure your logo is placed in the assets directory
